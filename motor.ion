@@ -1,0 +1,38 @@
+int in1 = 8;
+int in2 = 9;
+int ana1=12;
+
+int in3 = 10;
+int in4 = 11;
+int ana2=13;
+
+void setup(){
+  pinMode(in1,OUTPUT);
+  pinMode(in2,OUTPUT);
+  pinMode(in3,OUTPUT);
+  pinMode(in4,OUTPUT);
+  pinMode(ana1,OUTPUT);
+  pinMode(ana2,OUTPUT);
+}
+
+void loop(){
+  digitalWrite(in1,HIGH);
+  digitalWrite(in2,LOW);
+  analogWrite(ana1,200);
+  delay(2000);
+  digitalWrite(in1,LOW);
+  digitalWrite(in2,LOW);
+  delay(200);
+  
+  
+  digitalWrite(in3,HIGH);
+  digitalWrite(in4,LOW);
+  analogWrite(ana2,200);
+  delay(1000);
+
+  
+
+}
+
+
+  
