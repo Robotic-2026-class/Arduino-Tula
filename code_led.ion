@@ -1,0 +1,19 @@
+int leda=2;
+int ledb=3;
+
+void setup(){
+  pinMode(leda,OUTPUT);
+  pinMode(ledb,OUTPUT);
+  
+}
+
+void loop(){
+  digitalWrite(leda,HIGH);
+  delay(500);
+  digitalWrite(leda,LOW);
+  delay(500);
+
+  digitalWrite(ledb,OUTPUT);
+  delay(500);
+  digitalWrite(ledb,LOW);
+}
